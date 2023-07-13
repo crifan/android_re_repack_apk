@@ -27,7 +27,7 @@ keytool -genkeypair -v -keystore thunderRepack.keystore -keyalg RSA -keysize 204
   * `-genkeypair`：生成密码对（公钥和私钥）
   * `-v`：表示verbose，输出详细信息
   * `-keystore thunderRepack.keystore`：生成的keystore文件名
-  * `-keyalg RSA`：秘钥算法用RSA
+  * `-keyalg RSA`：密钥算法用RSA
   * `-keysize 2048`：key的大小采用2048
     * 此处也是RSA算法的默认大小值
   * `-validity 10000`
@@ -36,14 +36,14 @@ keytool -genkeypair -v -keystore thunderRepack.keystore -keyalg RSA -keysize 204
     * 注：后续apk签名会用到这个alias值
 
 * 输出：
-  * `keystore文件`：thunderRepack.keystore
+  * `keystore文件`：`thunderRepack.keystore`
 
 * 其他说明
-  * 期间有个秘钥的密码，要记住，以备后用
+  * 期间有个密钥的密码，要记住，以备后用
     * 此处设置的密码是：thunderRepack
   * 设置一堆信息后，最后需要确认
   * 最后确认信息时，（由于此处是中文提示信息），要输入：是
-    * 如果像我输入yes，搞错了，就要重复再确认一遍。。。
+    * 如果像我输入`yes`，搞错了，就要重复再确认一遍。。。
 
 ### 用jarsigner签名
 

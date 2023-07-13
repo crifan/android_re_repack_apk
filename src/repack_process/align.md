@@ -19,6 +19,10 @@ zipalign -p 4 thunderRepack_changedVersion_jarSigned.apk thunderRepack_changedVe
 * 参数解释
   * `-p` ：memory page alignment for stored shared object files
   * 如果要强制覆盖输出的文件，加`-f`
-    * `zipalign -f -p 4 xxx.apk xxx_aligned.apk`
+    ```bash
+    zipalign -f -p 4 xxx.apk xxx_aligned.apk
+    ```
   * 如果要输出详情，加`-v`
-    * `zipalign -v -f -p 4 xxx.apk xxx_aligned.apk`
+    ```bash
+    zipalign -v -f -p 4 xxx.apk xxx_aligned.apk
+    ```

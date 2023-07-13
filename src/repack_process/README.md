@@ -13,7 +13,7 @@ TODO：
 
 给一个安卓apk重新打包apk的典型流程是：
 
-* `apk解包`：用apktool解包，得到文件和资源
+* `apk解包`：用静态的apktool或动态的FDex2等去解包，得到dex文件和资源文件等内容
 * `改动`：改你要的内容或资源
 * `重新打包apk`：用apktool重新打包出apk
 * `重签名`：重新签名apk

@@ -4,7 +4,6 @@ TODO：
 
 * 【记录】用apktool给脱壳后加了smali代码的各种文件重新打包为apk
 * 【未解决】如何把破解和脱壳后的安卓apk重新打包出可用apk
-* 
 
 ---
 
@@ -12,15 +11,15 @@ TODO：
 apktool b inputFolder
 apktool b inputFolder -o outputFilename.apk
 ```
+* 参数说明
+  * `b`=`build`=`编译`
+    * =`重新打包`
+  * `o`=`output`=输出文件名
+    * 默认是：`dist/name.apk`
 
-* `b`=`build`=`编译`
-  * =`重新打包`
-* `o`=`output`=输出文件名
-  * 默认是：`dist/name.apk`
+## 举例
 
-举例：
-
-## 重新打包迅雷的apk
+### 重新打包迅雷的apk
 
 ```bash
 apktool b -o thunderRepack_unsigned_unAlign.apk repackApk_jadx
