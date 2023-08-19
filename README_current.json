@@ -1,6 +1,6 @@
 {
-  "latestVersion": "v0.8",
-  "lastUpdate": "20230713",
+  "latestVersion": "v0.8.1",
+  "lastUpdate": "20230819",
   "gitRepoName": "android_re_repack_apk",
   "bookName": "Android逆向：重新打包apk",
   "bookDescription": "介绍Android逆向开发期间，如何重新打包apk。先是安卓apk重新打包的概览；然后详细介绍重新打包apk的典型流程，包括apk解包、改动、重新打包apk、重签名、对齐，最后确认成功；期间涉及常用工具apktool、签名相关的keytool、jarsigner、apksigner、优化相关的对齐工具zipalign；然后总结常见问题和相关心得；"

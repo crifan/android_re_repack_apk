@@ -44,7 +44,7 @@ I: Copying original files...
 I: Copying META-INF/services directory
 ```
 
-![apktool_decode_thunder](../../../../assets/img/apktool_decode_thunder.jpg)
+![apktool_decode_thunder](../../../assets/img/apktool_decode_thunder.jpg)
 
 ### apktool反编译小花生的apk
 
@@ -87,12 +87,12 @@ drwxr-xr-x   10 crifan  staff   320B  3 14 13:39 unknown
 
 得到项目的目录文件：
 
-![apktool_decoded_project_structure](../../../../assets/img/apktool_decoded_project_structure.png)
+![apktool_decoded_project_structure](../../../assets/img/apktool_decoded_project_structure.png)
 
 其中有：
 
 * 最基本的：`AndroidMenifest.xml`
-  * ![apktool_decoded_androidmenifest_xml](../../../../assets/img/apktool_decoded_androidmenifest_xml.png)
+  * ![apktool_decoded_androidmenifest_xml](../../../assets/img/apktool_decoded_androidmenifest_xml.png)
 * 但得不到我们要的`dex`文件
 * 可得到：和app业务逻辑相关代码的`smali`文件
   * 想要得到最终`java`源码的话
@@ -102,7 +102,7 @@ drwxr-xr-x   10 crifan  staff   320B  3 14 13:39 unknown
   * 而用`apktool`转换apk得到smali源码，是有前提的：apk没有加固
     * 加固了的apk反编译后只能看到被加固后的目录结构，看不到app业务逻辑代码和结构
       * 举例：某个被腾讯乐固legu加了密的apk，反编译后看不到原始类名和目录结构，只能看到腾讯乐固的目录结构
-        * ![apktool_decoded_tencent_legu](../../../../assets/img/apktool_decoded_tencent_legu.png)
+        * ![apktool_decoded_tencent_legu](../../../assets/img/apktool_decoded_tencent_legu.png)
 
 ### apktool反编译微信6.6.7的apk
 
@@ -217,7 +217,7 @@ versionInfo:
   versionName: 6.6.7
 ```
 
-![apktool_decoded_weixin_yml_info](../../../../assets/img/apktool_decoded_weixin_yml_info.png)
+![apktool_decoded_weixin_yml_info](../../../assets/img/apktool_decoded_weixin_yml_info.png)
 
 可以看出一些版本方面的信息：
 
@@ -229,4 +229,4 @@ versionInfo:
 
 以及有很多的smali代码：
 
-![apktool_decoded_weixin_smali](../../../../assets/img/apktool_decoded_weixin_smali.png)
+![apktool_decoded_weixin_smali](../../../assets/img/apktool_decoded_weixin_smali.png)
