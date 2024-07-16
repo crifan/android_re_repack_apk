@@ -1,5 +1,26 @@
 # apktool
 
+TODO：
+
+* 【已解决】Mac中升级apktool到最新版
+* 【已解决】apktool重新打包apk报错：brut.directory.PathNotExist apktool.yml
+* 【记录】Mac中再次升级apktool到最新版本2.9.0
+* 【记录】用apktool反编译破解迅雷安卓app
+* 【记录】用apktool给脱壳后加了smali代码的各种文件重新打包为apk
+* 【已解决】pm安装apktool重新打包的apk报错：Failure INSTALL_PARSE_FAILED_NO_CERTIFICATES
+* 【已解决】找到jadx反编译的java代码对应的apktool反编译的smali代码
+* 【未解决】Mac中用apktool破解反编译安卓apk：adcWallet_release_v2.2.4.apk
+* 【部分解决】apktool反编译安卓迅雷apk报错：Baksmaling assets dex Not a valid dex magic value
+* 【未解决】apktool重新打包apk报错：Exception in thread org.jf.util.ExceptionWithContext Exception occurred while writing code_item for method
+* 【记录】对比确保apktool重新打包的YouTube的apk可以正常安装和使用
+* 【已解决】apktool重新打包报错：brut.androlib.AndrolibException brut.common.BrutException could not exec
+* 【已解决】安卓逆向Tiktok：用apktool导出文件
+* 【已解决】给apktool重新打包的YouTube的apk重签名
+* 【已解决】安卓AS调试apk的smali：导入apktool反编译的源码作为项目代码
+* 【未解决】安卓手机Google Pixel3中卸载旧版YouTube重新安装apktool重新打包的YouTube的apk
+
+---
+
 * `apktool`
   * 是什么：一个逆向安卓apk的工具
   * 主要功能
