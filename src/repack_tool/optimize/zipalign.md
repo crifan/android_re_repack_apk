@@ -9,7 +9,7 @@
     * 对齐后：直接用`mmap`去访问apk内部的资源文件
       * 无需消耗额外RAM，降低了内存使用量，提高了性能和效率
 
-> #### warning:: 对齐的时机
+> [!warning|title:对齐的时机]
 > * 如果您使用的是`apksigner`，只能在为APK文件签名之前执行`zipalign`
 >   * 如果您在使用`apksigner`为APK签名之后对APK做出了进一步更改，签名便会失效
 > * 如果您使用的是`jarsigner`，只能在为APK文件签名之后执行`zipalign`
